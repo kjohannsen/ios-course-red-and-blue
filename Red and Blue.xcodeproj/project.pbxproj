@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CB683F51CF7883A0030AF5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB683F41CF7883A0030AF5F /* AppDelegate.swift */; };
+		5CB683F71CF7883A0030AF5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB683F61CF7883A0030AF5F /* ViewController.swift */; };
+		5CB683FA1CF7883A0030AF5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CB683F81CF7883A0030AF5F /* Main.storyboard */; };
+		5CB683FC1CF7883A0030AF5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CB683FB1CF7883A0030AF5F /* Images.xcassets */; };
+		5CB683FF1CF7883A0030AF5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CB683FD1CF7883A0030AF5F /* LaunchScreen.xib */; };
+		5CB6840B1CF7883A0030AF5F /* Red_and_BlueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB6840A1CF7883A0030AF5F /* Red_and_BlueTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CB684051CF7883A0030AF5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CB683E71CF7883A0030AF5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CB683EE1CF7883A0030AF5F;
+			remoteInfo = "Red and Blue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CB683EF1CF7883A0030AF5F /* Red and Blue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Red and Blue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB683F31CF7883A0030AF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB683F41CF7883A0030AF5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5CB683F61CF7883A0030AF5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5CB683F91CF7883A0030AF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CB683FB1CF7883A0030AF5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CB683FE1CF7883A0030AF5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5CB684041CF7883A0030AF5F /* Red and BlueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Red and BlueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB684091CF7883A0030AF5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CB6840A1CF7883A0030AF5F /* Red_and_BlueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Red_and_BlueTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CB683EC1CF7883A0030AF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB684011CF7883A0030AF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CB683E61CF7883A0030AF5F = {
+			isa = PBXGroup;
+			children = (
+				5CB683F11CF7883A0030AF5F /* Red and Blue */,
+				5CB684071CF7883A0030AF5F /* Red and BlueTests */,
+				5CB683F01CF7883A0030AF5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CB683F01CF7883A0030AF5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CB683EF1CF7883A0030AF5F /* Red and Blue.app */,
+				5CB684041CF7883A0030AF5F /* Red and BlueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CB683F11CF7883A0030AF5F /* Red and Blue */ = {
+			isa = PBXGroup;
+			children = (
+				5CB683F41CF7883A0030AF5F /* AppDelegate.swift */,
+				5CB683F61CF7883A0030AF5F /* ViewController.swift */,
+				5CB683F81CF7883A0030AF5F /* Main.storyboard */,
+				5CB683FB1CF7883A0030AF5F /* Images.xcassets */,
+				5CB683FD1CF7883A0030AF5F /* LaunchScreen.xib */,
+				5CB683F21CF7883A0030AF5F /* Supporting Files */,
+			);
+			path = "Red and Blue";
+			sourceTree = "<group>";
+		};
+		5CB683F21CF7883A0030AF5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CB683F31CF7883A0030AF5F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CB684071CF7883A0030AF5F /* Red and BlueTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CB6840A1CF7883A0030AF5F /* Red_and_BlueTests.swift */,
+				5CB684081CF7883A0030AF5F /* Supporting Files */,
+			);
+			path = "Red and BlueTests";
+			sourceTree = "<group>";
+		};
+		5CB684081CF7883A0030AF5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CB684091CF7883A0030AF5F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CB683EE1CF7883A0030AF5F /* Red and Blue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB6840E1CF7883A0030AF5F /* Build configuration list for PBXNativeTarget "Red and Blue" */;
+			buildPhases = (
+				5CB683EB1CF7883A0030AF5F /* Sources */,
+				5CB683EC1CF7883A0030AF5F /* Frameworks */,
+				5CB683ED1CF7883A0030AF5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Red and Blue";
+			productName = "Red and Blue";
+			productReference = 5CB683EF1CF7883A0030AF5F /* Red and Blue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CB684031CF7883A0030AF5F /* Red and BlueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CB684111CF7883A0030AF5F /* Build configuration list for PBXNativeTarget "Red and BlueTests" */;
+			buildPhases = (
+				5CB684001CF7883A0030AF5F /* Sources */,
+				5CB684011CF7883A0030AF5F /* Frameworks */,
+				5CB684021CF7883A0030AF5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CB684061CF7883A0030AF5F /* PBXTargetDependency */,
+			);
+			name = "Red and BlueTests";
+			productName = "Red and BlueTests";
+			productReference = 5CB684041CF7883A0030AF5F /* Red and BlueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CB683E71CF7883A0030AF5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Kyle Johannsen";
+				TargetAttributes = {
+					5CB683EE1CF7883A0030AF5F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					5CB684031CF7883A0030AF5F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 5CB683EE1CF7883A0030AF5F;
+					};
+				};
+			};
+			buildConfigurationList = 5CB683EA1CF7883A0030AF5F /* Build configuration list for PBXProject "Red and Blue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5CB683E61CF7883A0030AF5F;
+			productRefGroup = 5CB683F01CF7883A0030AF5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CB683EE1CF7883A0030AF5F /* Red and Blue */,
+				5CB684031CF7883A0030AF5F /* Red and BlueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CB683ED1CF7883A0030AF5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB683FA1CF7883A0030AF5F /* Main.storyboard in Resources */,
+				5CB683FF1CF7883A0030AF5F /* LaunchScreen.xib in Resources */,
+				5CB683FC1CF7883A0030AF5F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB684021CF7883A0030AF5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CB683EB1CF7883A0030AF5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB683F71CF7883A0030AF5F /* ViewController.swift in Sources */,
+				5CB683F51CF7883A0030AF5F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB684001CF7883A0030AF5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CB6840B1CF7883A0030AF5F /* Red_and_BlueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CB684061CF7883A0030AF5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CB683EE1CF7883A0030AF5F /* Red and Blue */;
+			targetProxy = 5CB684051CF7883A0030AF5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CB683F81CF7883A0030AF5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CB683F91CF7883A0030AF5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CB683FD1CF7883A0030AF5F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CB683FE1CF7883A0030AF5F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CB6840C1CF7883A0030AF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5CB6840D1CF7883A0030AF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CB6840F1CF7883A0030AF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Red and Blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5CB684101CF7883A0030AF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Red and Blue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5CB684121CF7883A0030AF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Red and BlueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Red and Blue.app/Red and Blue";
+			};
+			name = Debug;
+		};
+		5CB684131CF7883A0030AF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Red and BlueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Red and Blue.app/Red and Blue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CB683EA1CF7883A0030AF5F /* Build configuration list for PBXProject "Red and Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB6840C1CF7883A0030AF5F /* Debug */,
+				5CB6840D1CF7883A0030AF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CB6840E1CF7883A0030AF5F /* Build configuration list for PBXNativeTarget "Red and Blue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB6840F1CF7883A0030AF5F /* Debug */,
+				5CB684101CF7883A0030AF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5CB684111CF7883A0030AF5F /* Build configuration list for PBXNativeTarget "Red and BlueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CB684121CF7883A0030AF5F /* Debug */,
+				5CB684131CF7883A0030AF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CB683E71CF7883A0030AF5F /* Project object */;
+}
