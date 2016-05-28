@@ -1,25 +1,91 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Red_and_Blue" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K7P-PQ-MGr">
+                                <rect key="frame" x="35" y="326" width="151" height="30"/>
+                                <state key="normal" title="Hide Trump">
+                                    <color key="titleColor" red="1" green="0.036868300440802471" blue="0.027243306715017179" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hideRed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VIL-dF-OgZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Tp-CF-lYz">
+                                <rect key="frame" x="218" y="326" width="98" height="30"/>
+                                <state key="normal" title="Hide Hillary">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="hideBlue:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="O38-XY-POt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MSo-uw-ZAg">
+                                <rect key="frame" x="164" y="524" width="46" height="30"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" red="0.1764705882" green="0.1843137255" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PxU-qv-eKh"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trump" translatesAutoresizingMaskIntoConstraints="NO" id="hY4-jI-qcs">
+                                <rect key="frame" x="16" y="82" width="188" height="100"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clinton" translatesAutoresizingMaskIntoConstraints="NO" id="U9U-CJ-Kr1">
+                                <rect key="frame" x="175" y="82" width="184" height="100"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trump clinton" translatesAutoresizingMaskIntoConstraints="NO" id="uXg-vl-jD1">
+                                <rect key="frame" x="-63" y="20" width="501" height="298"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAe-SK-LoJ">
+                                <rect key="frame" x="141" y="378" width="92" height="30"/>
+                                <state key="normal" title="Show Both">
+                                    <color key="titleColor" red="0.1764705882" green="0.1843137255" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showBoth:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zj2-kI-hIO"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="blueButton" destination="6Tp-CF-lYz" id="b7m-G3-XWK"/>
+                        <outlet property="blueImage" destination="U9U-CJ-Kr1" id="pjo-tp-IYq"/>
+                        <outlet property="bothButton" destination="CAe-SK-LoJ" id="Pl2-RG-axn"/>
+                        <outlet property="bothImage" destination="uXg-vl-jD1" id="swK-3X-n8N"/>
+                        <outlet property="redButton" destination="K7P-PQ-MGr" id="JpC-Kl-nLJ"/>
+                        <outlet property="redImage" destination="hY4-jI-qcs" id="ejd-sx-5zM"/>
+                        <outlet property="resetButton" destination="MSo-uw-ZAg" id="feu-Hr-Kxx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="304.5" y="380.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="clinton" width="259" height="194"/>
+        <image name="trump" width="276" height="183"/>
+        <image name="trump clinton" width="188" height="236"/>
+    </resources>
 </document>
